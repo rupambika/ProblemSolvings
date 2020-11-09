@@ -12,7 +12,7 @@ public class Rotation {
 
         int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};
         int n = arr.length, d = 3;
-
+// call rotate method
         int a[] = rotate(arr, n, d);
 
         Arrays.stream(a).forEach(i -> {
